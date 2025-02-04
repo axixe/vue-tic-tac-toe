@@ -1,0 +1,23 @@
+@mixin h1-font {
+  font-size: 56px;
+  line-height: 84px;
+  font-weight: 800;
+}
+
+@mixin body-font {
+  font-size: 40px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+@mixin button-font {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 300;
+}
+
+@mixin body-small {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+}

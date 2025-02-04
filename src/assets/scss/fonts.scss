@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'MPLUS Rounded';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('MPLUS Rounded'), local('MPLUS-Rounded'),
+  url('@/assets/fonts/MPLUSRounded1c-Light.woff2') format('woff2'),
+  url('@/assets/fonts/MPLUSRounded1c-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MPLUS Rounded';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('MPLUS Rounded'), local('MPLUS-Rounded'),
+  url('@/assets/fonts/MPLUSRounded1c-Medium.woff2') format('woff2'),
+  url('@/assets/fonts/MPLUSRounded1c-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'MPLUS Rounded';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: local('MPLUS Rounded'), local('MPLUS-Rounded'),
+  url('@/assets/fonts/MPLUSRounded1c-ExtraBold.woff2') format('woff2'),
+  url('@/assets/fonts/MPLUSRounded1c-ExtraBold.woff') format('woff');
+}
