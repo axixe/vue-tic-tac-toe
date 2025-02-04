@@ -1,0 +1,20 @@
+@import './mixins.scss';
+@import './fonts.scss';
+@import './null.scss';
+@import './variables.scss';
+
+body {
+  @include body-font;
+  color: $white;
+  font-family: 'MPLUS Rounded', sans-serif;
+}
+
+h1,
+.h1 {
+  @include h1-font;
+}
+
+button,
+.button {
+  @include button-font;
+}
